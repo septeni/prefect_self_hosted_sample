@@ -1,14 +1,29 @@
-# Welcome to your CDK TypeScript project
+# prefect_self_hosted_sample
+[こちら](https://zenn.dev/septeni_japan/articles/2024-06_prefect)で紹介しているCDKのサンプルコードです。
 
-This is a blank project for CDK development with TypeScript.
+## 前提
+- Node.jsがインストールされていること
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## セットアップ
 
-## Useful commands
+### 1. リポジトリをクローン
+```bash
+git clone git@github.com:septeni/prefect_self_hosted_sample.git
+```
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+### 2. パッケージのインストール
+```bash
+npm install
+```
+
+### 3. 環境変数の設定
+`.env`ファイルを作成し、以下の内容を記述してください。
+```:.env
+CDK_DEFAULT_ACCOUNT=xxxxx
+CDK_DEFAULT_REGION=ap-northeast-1
+```
+
+## デプロイ
+```bash
+npx cdk deploy
+```
