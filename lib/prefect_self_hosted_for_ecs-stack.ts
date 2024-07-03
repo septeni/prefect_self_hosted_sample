@@ -96,7 +96,7 @@ export class PrefectSelfHostedForEcsStack extends cdk.Stack {
     listener.addAction("DefaultTarget", {
       action: elbv2.ListenerAction.fixedResponse(401, {
         contentType: "text/plain",
-        messageBody: "Unauthorised access",
+        messageBody: "Unauthorized access",
       }),
     });
   }
