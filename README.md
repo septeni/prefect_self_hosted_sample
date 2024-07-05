@@ -2,7 +2,9 @@
 [こちら](https://zenn.dev/septeni_japan/articles/2024-06_prefect)で紹介しているCDKのサンプルコードです。
 
 ## 前提
-- Node.jsがインストールされていること
+- Node.js・npmがインストールされていること
+  - Node.js >= 18.0.0
+  - npm >= 10.2.0
 
 ## セットアップ
 
