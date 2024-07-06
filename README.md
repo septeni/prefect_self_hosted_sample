@@ -18,13 +18,6 @@ git clone git@github.com:septeni/prefect_self_hosted_sample.git
 npm install
 ```
 
-### 3. 環境変数の設定
-`.env`ファイルを作成し、以下の内容を記述してください。
-```:.env
-CDK_DEFAULT_ACCOUNT=xxxxx
-CDK_DEFAULT_REGION=ap-northeast-1
-```
-
 ## デプロイ
 ```bash
 npx cdk deploy
