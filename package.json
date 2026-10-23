@@ -5,7 +5,7 @@
     "prefect_self_hosted_for_ecs": "bin/prefect_self_hosted_for_ecs.js"
   },
   "engines": {
-    "node": ">=18.0.0",
+    "node": ">=22.23.4",
     "npm": ">=10.2.0"
   },
   "scripts": {
